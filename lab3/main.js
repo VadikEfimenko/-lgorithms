@@ -22,7 +22,7 @@ function isBubbleSort(myArray) {
             }
         }
     } while (Flag);
-    console.log((new Date().getTime() - start)+' mc');
+    console.log((new Date().getTime() - start)+' ms');
 
 }
 
@@ -37,13 +37,13 @@ function isInsertionSort(myArray) {
             j--;
         }
     }
-    console.log((new Date().getTime() - start)+" mc");
+    console.log((new Date().getTime() - start)+" ms");
 }
 
 function isQuickSort(myArray) {
     let start = new Date().getTime();
     qSort(0,myArray.length-1);
-    console.log((new Date().getTime() - start)+" mc");
+    console.log((new Date().getTime() - start)+" ms");
 
 
 }
